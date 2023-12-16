@@ -1,10 +1,13 @@
 import mongoose from "mongoose";
 
-mongoose.connect('mongodb+srv://yurigabriel21:r8UH5SuOqnf0kpuK@carts.nldzw8m.mongodb.net/?retryWrites=true&w=majority').then((connect)=>{
+const dbAcess: string | any = process.env.MONGO_URI;
+
+mongoose.connect(dbAcess).then((connect)=>{
 
   console.log('MongoDB Connection Succeeded');
+
  
-}).catch((err)=>{
+}).catch((err)=>{ 
 
   console.log(`Erro: ${err}`);
   
