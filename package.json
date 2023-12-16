@@ -4,8 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.ts"
+    "dev": "nodemon src/server.ts",
+    "start": "nodemon src/server.ts",
+    "build": "tsc"
   },
+ 
+
   "dependencies": {
     "@types/node": "^20.10.3",
     "dotenv": "^16.3.1",
