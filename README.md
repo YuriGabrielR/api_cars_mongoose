@@ -32,7 +32,7 @@
 
 ###
 
-<h2 align="left">👀 Deploy feito pela Vercel:🗺</h2>
+<h2 align="left">👩🏽‍💻 Deploy feito pela Vercel🌐 : </h2>
 
 ###
 <a href="https://api-cars-mongoose.vercel.app/cars"> Deploy da API </a>
